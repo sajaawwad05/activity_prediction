@@ -74,6 +74,7 @@ for col in merged.columns:
     averaged_data[col] = averaged_col
 
 
-output_file = os.path.join(folder, "std205.csv")
+output_file = os.path.join(folder, "standing.csv")
 averaged_data.to_csv(output_file, index=False)
+
 
